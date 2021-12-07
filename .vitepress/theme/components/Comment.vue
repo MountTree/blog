@@ -10,17 +10,17 @@
         // 是否开启
         enable: true,
         // clientID
-        clientID: "a8296833d44633072517",
+        clientID: "2e8c1a7f986aeac2e46e",
         // clientSecret
-        clientSecret: "8af7efce84642c54ce9e6206fd1da2b01952a3d1",
+        clientSecret: "e10ad45fcd8e95ba7a65ab9fcaeb8718ea6ddcf7",
         // 评论项目名
-        repo: 'blog-comments',
-        owner: 'JexLau',
-        admin: ['JexLau'],
-        githubID:'JexLau',
+        repo: "blog-comments",
+        owner: "MountTree",
+        admin: ["MountTree"],
+        githubID: "MountTree",
         id: decodeURI(window.location.pathname),
-        language:'zh-CN',
-        distractionFreeMode: true
+        language: "zh-CN",
+        distractionFreeMode: true,
       };
       const gitalk = new Gitalk(commentConfig);
       gitalk.render("gitalk-container");
